@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etId"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Id"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"/>
+
+    <Button
+        android:id="@+id/btSave"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Save"/>
+
+    <Button
+        android:id="@+id/btShow"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Show"/>
+
+    <Button
+        android:id="@+id/btUpdate"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Update"/>
+
+    <Button
+        android:id="@+id/btDelete"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Delete"/>
+
+
+
+</LinearLayout>
